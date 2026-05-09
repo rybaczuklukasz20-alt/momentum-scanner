@@ -1,0 +1,20 @@
+# Skaner Momentum — wersja 2 (rozbudowana, PL)
+# Testowane na Pythonie 3.10–3.12
+
+# Web app + dane
+streamlit>=1.32.0
+pandas>=2.1.0
+numpy>=1.26.0
+yfinance>=0.2.40
+plotly>=5.20.0
+requests>=2.31.0       # dla alertów Telegram
+
+# Eksport PDF
+reportlab>=4.0.0
+
+# Pogłębiona analiza (Claude API) — OPCJONALNE
+# Odkomentuj jeśli chcesz używać LLM:
+# anthropic>=0.40.0
+
+# Opcjonalnie:
+# pandas-ta>=0.3.14b0     # dla dodatkowych wskaźników (nie wymagane)
